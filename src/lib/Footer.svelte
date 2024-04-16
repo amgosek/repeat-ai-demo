@@ -7,7 +7,7 @@
     <nav 
         class="flex flex-col items-center 
             justify-between gap-6 border-t 
-            border-gray-600 px-8 py-7 md:flex-row"
+            border-gray-600 px-8 py-7 md:flex-row bg-gray-950"
     >
         <div class="flex justify-between items-center w-full">
             <a href="/">
