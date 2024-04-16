@@ -1,8 +1,23 @@
 <script>
-    // JavaScript for the header can go here
-  </script>
+    import WordMark from "./WordMark.svelte";
+    import {menuItems} from '$lib/menuItems';  
+</script>
   
-  <header class="bg-blue-500 text-white p-4">
-    <h1 class="text-lg">My Website Header</h1>
-  </header>
-  
+<header class="">
+    <nav
+        class="flex flex-col items-center 
+            justify-between gap-6 border-t 
+            border-gray-600 px-8 py-7 md:flex-row"
+    >
+        <div class="flex justify-between items-center w-full">
+            <a href="/">
+                <WordMark />
+            </a>
+            <ul class="flex space-x-4">
+                {#each menuItems as { text, href }}
+                  <li><a href={href} class="hover:text-gray-300">{text}</a></li>
+                {/each}
+            </ul>
+        </div>
+    </nav>
+</header>
