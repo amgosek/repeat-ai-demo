@@ -1,5 +1,7 @@
 <script>
-    import Hero from "$lib/Hero.svelte";
+    import Bento from "$lib/Bento.svelte";
+import Hero from "$lib/Hero.svelte";
 </script>
 
 <Hero />
+<Bento />
