@@ -1,6 +1,6 @@
 export const bentoItems = [
-    { title: "Title 1", body: "Body for the title here is the text.", img: '/hero.jpg' },
-    { title: "Title 2", body: "Another body for title 2, here is the text.", img: '/hero.jpg' },
-    { title: "Title 3", body: "Body for the title 3 and here is the text.", img: '/hero.jpg' },
-    { title: "Title 4", body: "Another body for title 4, here is the text.", img: '/hero.jpg' },
+    { title: "Endless Ideation", body: "Never worry about costly CGI again, now you can get all the benefits of a film studio with our generative tech.", img: '/long-screenshot.png', wide: true },
+    { title: "Benchmark with AI", body: "Come up with new ideas faster than you can open Final Cut Pro", img: '/small-screenshot.png', wide: false },
+    { title: "Aesthetic Excellence", body: "Come up with new ideas faster than you can open Final Cut Pro", img: '/small-screenshot.png', wide: false },
+    { title: "Pixels Perfected", body: "Never worry about costly CGI again, now you can get all the benefits of a film studio with our generative tech.", img: '/long-screenshot.png', wide: true },
 ];
