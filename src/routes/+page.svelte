@@ -1,6 +1,6 @@
 <script>
-    import Bento from "$lib/Bento.svelte";
-import Hero from "$lib/Hero.svelte";
+import Bento from "../lib/Bento/Bento.svelte";
+import Hero from "../lib/Hero/Hero.svelte";
 </script>
 
 <Hero />
