@@ -1,9 +1,15 @@
-<script>
+<script lang="ts">
     import WordMark from "./WordMark.svelte";
     import {menuItems} from '$lib/Layout/menuItems';  
+    import ButtonLink from "$lib/ButtonLink/ButtonLink.svelte";
+
+    function handleStart(event: MouseEvent): void {
+        console.log('Button clicked!', event);
+        // Add your action for "Get Started" here
+    }
 </script>
   
-<header class="">
+<header>
     <nav
         class="flex flex-col items-center 
             justify-between gap-6 border-t 
@@ -14,8 +20,16 @@
                 <WordMark />
             </a>
             <ul class="flex space-x-4">
-                {#each menuItems as { text, href }}
-                  <li><a href={href} class="hover:text-gray-300">{text}</a></li>
+                {#each menuItems as { text, href, buttonlink }}
+                  <li>
+                    {#if buttonlink}
+                      <ButtonLink onClick={handleStart}>
+                        {text}
+                      </ButtonLink>
+                    {:else}
+                      <a href={href} class="hover:text-gray-300">{text}</a>
+                    {/if}
+                  </li>
                 {/each}
             </ul>
         </div>

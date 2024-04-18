@@ -1,4 +1,4 @@
 export const menuItems = [
-    { text: "Home", href: "/" },
-    { text: "About", href: "/about" },
+    { text: "Home", href: "/", buttonlink: false },
+    { text: "About", href: "/about", buttonlink: true },
 ];
