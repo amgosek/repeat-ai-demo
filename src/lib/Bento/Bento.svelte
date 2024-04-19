@@ -3,7 +3,7 @@
     import clsx from "clsx";
 </script>
 
-<section class="mb-[50px]">
+<section class="mb-[100px]">
     <div class="w-full max-w-6xl mx-auto text-center text-white">
         <div class="relative w-full">
             <h2 class="mx-auto bg-clip-text text-balance text-center text-5xl font-medium md:text-7xl max-w-3xl">
