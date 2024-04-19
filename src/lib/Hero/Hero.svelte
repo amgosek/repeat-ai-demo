@@ -4,7 +4,6 @@
 
     function handleStart(event: MouseEvent): void {
         console.log('Button clicked!', event);
-        // Add your action for "Get Started" here
     }
 </script>
 
@@ -16,8 +15,8 @@
         </div>
         
         <h1 class="max-w-3xl mx-auto text-5xl font-medium md:text-7xl">Videos they'll watch again. And again.</h1>
-        <p class="mt-6 max-w-md mx-auto text-gray-300">Discover our services and offerings and find out more about how we can help you. Reach out to us now before its too late!</p>
-        <ButtonLink onClick={handleStart} class="mt-8 bg-gray-600 opacity-40 p-2 rounded-md">
+        <p class="mt-6 mb-6 max-w-md mx-auto text-gray-300">Discover our services and offerings and find out more about how we can help you. Reach out to us now before its too late!</p>
+        <ButtonLink onClick={handleStart}>
             Get Started
         </ButtonLink>
         

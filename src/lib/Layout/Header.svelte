@@ -19,7 +19,7 @@
             <a href="/">
                 <WordMark />
             </a>
-            <ul class="flex space-x-4">
+            <ul class="flex space-x-4 items-center">
                 {#each menuItems as { text, href, buttonlink }}
                   <li>
                     {#if buttonlink}
