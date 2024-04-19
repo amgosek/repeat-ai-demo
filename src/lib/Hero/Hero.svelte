@@ -25,7 +25,7 @@
             <div class="relative w-full">
                 <div class="absolute left-1/3 top-0 -z-10 h-2/3 w-2/3 bg-violet-700/50 mix-blend-screen blur-[120px] filter"></div>
                 <div class="absolute left-0 top-1/3 -z-10 h-2/3 w-2/3 bg-orange-600/50 mix-blend-screen blur-[120px] filter"></div>
-                <img class="rounded-lg w-full max-w-6xl mx-auto" src={"/hero.jpg"} alt="Logo of our company">
+                <img class="rounded-lg w-full max-w-6xl mx-auto" src={"/hero-image.png"} alt="Logo of our company">
             </div>
         </div>
     </div>
