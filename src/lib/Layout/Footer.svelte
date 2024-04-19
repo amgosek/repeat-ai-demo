@@ -13,7 +13,6 @@
             <a href="/">
                 <WordMark />
             </a>
-            <p>© 2024 My Website. All rights reserved.</p>
             <ul class="flex space-x-4">
                 {#each menuItems as { text, href }}
                   <li><a href={href} class="hover:text-gray-300">{text}</a></li>
