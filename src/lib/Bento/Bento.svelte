@@ -1,6 +1,6 @@
 <script>
     import { bentoItems } from "./bentoItems";
-    import clsx from "clsx";
+    import clsx from "clsx"; 
 </script>
 
 <section class="mb-[100px]">
