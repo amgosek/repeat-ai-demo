@@ -38,6 +38,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource-variable/dm-sans": "^5.0.5",
+		"@sveltejs/adapter-static": "^3.0.1",
 		"clsx": "^2.1.0"
 	}
 }
